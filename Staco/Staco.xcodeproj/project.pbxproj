@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75C0E5C2DB7745500C72114 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B75C0E5B2DB7745500C72114 /* FirebaseAuth */; };
+		B75C0E5E2DB7745500C72114 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B75C0E5D2DB7745500C72114 /* FirebaseFirestore */; };
+		B75C0E602DB7745500C72114 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B75C0E5F2DB7745500C72114 /* FirebaseMessaging */; };
+		B75C0E622DB7745500C72114 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B75C0E612DB7745500C72114 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B75C0E372DB7705200C72114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75C0E1E2DB7705100C72114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75C0E252DB7705100C72114;
+			remoteInfo = Staco;
+		};
+		B75C0E412DB7705200C72114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75C0E1E2DB7705100C72114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75C0E252DB7705100C72114;
+			remoteInfo = Staco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B75C0E262DB7705100C72114 /* Staco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Staco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75C0E362DB7705200C72114 /* StacoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StacoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75C0E402DB7705200C72114 /* StacoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StacoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B75C0E282DB7705100C72114 /* Staco */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Staco;
+			sourceTree = "<group>";
+		};
+		B75C0E392DB7705200C72114 /* StacoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StacoTests;
+			sourceTree = "<group>";
+		};
+		B75C0E432DB7705200C72114 /* StacoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StacoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75C0E232DB7705100C72114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75C0E602DB7745500C72114 /* FirebaseMessaging in Frameworks */,
+				B75C0E622DB7745500C72114 /* FirebaseStorage in Frameworks */,
+				B75C0E5C2DB7745500C72114 /* FirebaseAuth in Frameworks */,
+				B75C0E5E2DB7745500C72114 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75C0E332DB7705200C72114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75C0E3D2DB7705200C72114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75C0E1D2DB7705100C72114 = {
+			isa = PBXGroup;
+			children = (
+				B75C0E282DB7705100C72114 /* Staco */,
+				B75C0E392DB7705200C72114 /* StacoTests */,
+				B75C0E432DB7705200C72114 /* StacoUITests */,
+				B75C0E272DB7705100C72114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75C0E272DB7705100C72114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75C0E262DB7705100C72114 /* Staco.app */,
+				B75C0E362DB7705200C72114 /* StacoTests.xctest */,
+				B75C0E402DB7705200C72114 /* StacoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75C0E252DB7705100C72114 /* Staco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75C0E4A2DB7705200C72114 /* Build configuration list for PBXNativeTarget "Staco" */;
+			buildPhases = (
+				B75C0E222DB7705100C72114 /* Sources */,
+				B75C0E232DB7705100C72114 /* Frameworks */,
+				B75C0E242DB7705100C72114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B75C0E282DB7705100C72114 /* Staco */,
+			);
+			name = Staco;
+			packageProductDependencies = (
+				B75C0E5B2DB7745500C72114 /* FirebaseAuth */,
+				B75C0E5D2DB7745500C72114 /* FirebaseFirestore */,
+				B75C0E5F2DB7745500C72114 /* FirebaseMessaging */,
+				B75C0E612DB7745500C72114 /* FirebaseStorage */,
+			);
+			productName = Staco;
+			productReference = B75C0E262DB7705100C72114 /* Staco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B75C0E352DB7705200C72114 /* StacoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75C0E4D2DB7705200C72114 /* Build configuration list for PBXNativeTarget "StacoTests" */;
+			buildPhases = (
+				B75C0E322DB7705200C72114 /* Sources */,
+				B75C0E332DB7705200C72114 /* Frameworks */,
+				B75C0E342DB7705200C72114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75C0E382DB7705200C72114 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B75C0E392DB7705200C72114 /* StacoTests */,
+			);
+			name = StacoTests;
+			packageProductDependencies = (
+			);
+			productName = StacoTests;
+			productReference = B75C0E362DB7705200C72114 /* StacoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B75C0E3F2DB7705200C72114 /* StacoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75C0E502DB7705200C72114 /* Build configuration list for PBXNativeTarget "StacoUITests" */;
+			buildPhases = (
+				B75C0E3C2DB7705200C72114 /* Sources */,
+				B75C0E3D2DB7705200C72114 /* Frameworks */,
+				B75C0E3E2DB7705200C72114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75C0E422DB7705200C72114 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B75C0E432DB7705200C72114 /* StacoUITests */,
+			);
+			name = StacoUITests;
+			packageProductDependencies = (
+			);
+			productName = StacoUITests;
+			productReference = B75C0E402DB7705200C72114 /* StacoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75C0E1E2DB7705100C72114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B75C0E252DB7705100C72114 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B75C0E352DB7705200C72114 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B75C0E252DB7705100C72114;
+					};
+					B75C0E3F2DB7705200C72114 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B75C0E252DB7705100C72114;
+					};
+				};
+			};
+			buildConfigurationList = B75C0E212DB7705100C72114 /* Build configuration list for PBXProject "Staco" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B75C0E1D2DB7705100C72114;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B75C0E5A2DB7745500C72114 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B75C0E272DB7705100C72114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75C0E252DB7705100C72114 /* Staco */,
+				B75C0E352DB7705200C72114 /* StacoTests */,
+				B75C0E3F2DB7705200C72114 /* StacoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75C0E242DB7705100C72114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75C0E342DB7705200C72114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75C0E3E2DB7705200C72114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75C0E222DB7705100C72114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75C0E322DB7705200C72114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75C0E3C2DB7705200C72114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B75C0E382DB7705200C72114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75C0E252DB7705100C72114 /* Staco */;
+			targetProxy = B75C0E372DB7705200C72114 /* PBXContainerItemProxy */;
+		};
+		B75C0E422DB7705200C72114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75C0E252DB7705100C72114 /* Staco */;
+			targetProxy = B75C0E412DB7705200C72114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B75C0E482DB7705200C72114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B75C0E492DB7705200C72114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75C0E4B2DB7705200C72114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Staco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "STACO needs your location to mark accommodations on the map and find nearby housing options.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "STACO needs your location to mark accommodations on the map and find nearby housing options";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourusername.staco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75C0E4C2DB7705200C72114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Staco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "STACO needs your location to mark accommodations on the map and find nearby housing options.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "STACO needs your location to mark accommodations on the map and find nearby housing options";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourusername.staco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B75C0E4E2DB7705200C72114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.StacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Staco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Staco";
+			};
+			name = Debug;
+		};
+		B75C0E4F2DB7705200C72114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.StacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Staco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Staco";
+			};
+			name = Release;
+		};
+		B75C0E512DB7705200C72114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.StacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Staco;
+			};
+			name = Debug;
+		};
+		B75C0E522DB7705200C72114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganesh.StacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Staco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75C0E212DB7705100C72114 /* Build configuration list for PBXProject "Staco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75C0E482DB7705200C72114 /* Debug */,
+				B75C0E492DB7705200C72114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75C0E4A2DB7705200C72114 /* Build configuration list for PBXNativeTarget "Staco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75C0E4B2DB7705200C72114 /* Debug */,
+				B75C0E4C2DB7705200C72114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75C0E4D2DB7705200C72114 /* Build configuration list for PBXNativeTarget "StacoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75C0E4E2DB7705200C72114 /* Debug */,
+				B75C0E4F2DB7705200C72114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75C0E502DB7705200C72114 /* Build configuration list for PBXNativeTarget "StacoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75C0E512DB7705200C72114 /* Debug */,
+				B75C0E522DB7705200C72114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B75C0E5A2DB7745500C72114 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B75C0E5B2DB7745500C72114 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B75C0E5A2DB7745500C72114 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B75C0E5D2DB7745500C72114 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B75C0E5A2DB7745500C72114 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B75C0E5F2DB7745500C72114 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B75C0E5A2DB7745500C72114 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		B75C0E612DB7745500C72114 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B75C0E5A2DB7745500C72114 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B75C0E1E2DB7705100C72114 /* Project object */;
+}
